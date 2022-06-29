@@ -1,39 +1,45 @@
-body {
-    background-color: antiquewhite;
-}
-
-body nav {
-    padding: 0 !important;
-}
-
+/*
 .container-fluid {
-    background-color: aquamarine;
-    height: 4rem;
+    background-color: #F1EFEE;
 }
 
-ul {
-    height: 100%;
-    margin: 0;
+.row {
+    background-color: floralwhite;
+    height: 4.7rem;
+}
+*/
+
+/* Takes every class that starts with "col-" in the name 
+
+[class*="col-"] {
+    
+} */
+
+.signin-body {
+    background-color: beige;
 }
 
-li {
-    padding-top: 3.5%;
+.signin-container {
+    margin-top: 7%;;
 }
 
-li:hover {
-    background-color: antiquewhite;
+.signin-card {
+    padding: 40px 0px 20px;
+    background-color: floralwhite;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
 
-.navbar-collapse {
-    margin-top: 0;
-    margin-bottom: 0;
+.signin-img {
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+    width: 40%;
     height: auto;
-    height: 100%;
 }
 
-@media (max-width: 992px) {
-    li {
-        background-color: aquamarine;
-        padding-top: 0;
-    }
+.signin-form {
+    max-width: 340px;
+    margin: auto;
 }

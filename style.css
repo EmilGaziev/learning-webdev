@@ -1,0 +1,39 @@
+body {
+    background-color: antiquewhite;
+}
+
+body nav {
+    padding: 0 !important;
+}
+
+.container-fluid {
+    background-color: aquamarine;
+    height: 4rem;
+}
+
+ul {
+    height: 100%;
+    margin: 0;
+}
+
+li {
+    padding-top: 3.5%;
+}
+
+li:hover {
+    background-color: antiquewhite;
+}
+
+.navbar-collapse {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: auto;
+    height: 100%;
+}
+
+@media (max-width: 992px) {
+    li {
+        background-color: aquamarine;
+        padding-top: 0;
+    }
+}
